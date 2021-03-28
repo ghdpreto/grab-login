@@ -28,7 +28,7 @@
 .c-main__wrapper-illustration {
   background-image: url("../../assets/undraw_interview_rmcf.svg");
   background-size: cover;
-  background-position-x: 80%;
+  background-position-x: -15rem;
   background-position-y: center;
   background-repeat: no-repeat;
 }
