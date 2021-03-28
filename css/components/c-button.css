@@ -1,0 +1,22 @@
+.c-button {
+  margin-top: 2rem;
+  width: 300px;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--first-color);
+  background-color: var(--second-color);
+
+  padding: 1rem;
+  border: 2px solid var(--second-color);
+  border-radius: 2rem;
+
+  cursor: pointer;
+  transition: background-color 500ms, color 500ms;
+}
+
+.c-button:hover {
+  background-color: var(--first-color);
+  color: var(--second-color);
+  border-color: var(--second-color);
+}
