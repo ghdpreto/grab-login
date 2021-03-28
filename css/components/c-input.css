@@ -1,0 +1,41 @@
+.c-input {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.c-input__element {
+  background-color: transparent;
+  border: 2px solid var(--second-color);
+  border-radius: 2rem;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  width: 300px;
+  font-size: 1.2rem;
+}
+
+.c-input__icon {
+  position: absolute;
+  left: 10px;
+}
+
+.c-input--error > input {
+  border-color: var(--alert-color);
+}
+
+.c-input--error > span {
+  color: var(--alert-color);
+}
+
+.c-input__message-error {
+  display: none;
+}
+
+.c-input--error .c-input__message-error {
+  position: absolute;
+  display: block;
+  bottom: -16px;
+  font-size: 0.8rem;
+  color: var(--alert-color);
+}
