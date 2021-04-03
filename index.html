@@ -39,19 +39,24 @@
           alt="Logo Grab"
         />
         <div class="c-main__wrapper-inputs">
-          <div class="c-input c-input--error">
-            <input class="c-input__element" type="text" />
+          <div class="c-input" data-js="inputEmail">
+            <input class="c-input__element" data-js="userEmail" type="email" />
             <span class="material-icons c-input__icon"> alternate_email </span>
             <p class="c-input__message-error">
               Por favor, insira um email válido
             </p>
           </div>
 
-          <div class="c-input">
-            <input class="c-input__element" type="password" />
+          <div class="c-input" data-js="passwordInput">
+            <input
+              class="c-input__element"
+              data-js="userPassword"
+              type="password"
+            />
             <span class="material-icons c-input__icon"> lock </span>
+            <p class="c-input__message-error">Senha inválida</p>
           </div>
-          <button class="c-button">Entrar</button>
+          <button class="c-button" data-js="btnLogin">Entrar</button>
         </div>
 
         <div class="c-main__help">
@@ -63,5 +68,6 @@
       </section>
       <section class="c-main__wrapper-illustration"></section>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
