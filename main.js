@@ -1,4 +1,5 @@
 const btnLogin = document.querySelector("[data-js=btnLogin]");
+const help = document.querySelector("[data-js=help]");
 
 const userEmail = document.querySelector("[data-js=userEmail]");
 const userPassword = document.querySelector("[data-js=userPassword]");
@@ -38,3 +39,7 @@ function clearError() {
     }
   });
 }
+
+help.addEventListener("click", () =>
+  alert("User => admin@admin.com \nPassword => admin")
+);
